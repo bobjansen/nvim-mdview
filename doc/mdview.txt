@@ -1,0 +1,11 @@
+*mdview.txt*  Readable, editable markdown with no dependencies
+
+Settings applied to markdown buffers: conceal markup, soft-wrap, tree-sitter
+highlighting. Configure through |g:mdview| before the plugin loads.
+
+                                                                    *g:mdview*
+Table with optional keys: enable, conceallevel, concealcursor, wrap, indent, map.
+See the README for defaults.
+
+                                                              *:MdViewToggle*
+:MdViewToggle   Toggle between concealed and raw markdown in this window.
