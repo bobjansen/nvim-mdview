@@ -4,6 +4,8 @@ Read and edit markdown in Neovim with the markup tucked away. **No dependencies*
 plugin manager needed, no external renderer. It is about 40 lines of Lua on top of
 Neovim's built-in tree-sitter markdown support.
 
+![nvim-mdview rendering this README](assets/screenshot.png)
+
 What it does in a markdown buffer:
 
 - starts tree-sitter highlighting (headings, emphasis, fenced code blocks in their own language)
